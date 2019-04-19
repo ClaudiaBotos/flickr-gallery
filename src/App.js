@@ -14,7 +14,7 @@ import ErrorPage from './Components/ErrorPage';
 import NotFound from './Components/MainContainer/NotFound';
 
 const App =(props) => (
-  <BrowserRouter>
+  <BrowserRouter basename={/index.html}>
   <div className="container">
  <Switch>
 
