@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Switch
 } from 'react-router-dom';
@@ -14,7 +14,7 @@ import ErrorPage from './Components/ErrorPage';
 import NotFound from './Components/MainContainer/NotFound';
 
 const App =(props) => (
-  <BrowserRouter basename='/' >
+  <HashRouter basename='/' >
   <div className="container">
  <Switch>
 
@@ -32,7 +32,7 @@ const App =(props) => (
 </Switch>
    </div>
 
-  </BrowserRouter>
+  </HashRouter>
 );
 
 
