@@ -2,7 +2,7 @@
   "name": "flickr-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://claudiabotos.github.io/Treehouse-TD-Flickr-Gallery-Project/",
+  "homepage": "http://claudiabotos.github.io/flickr-gallery/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
